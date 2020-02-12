@@ -8,6 +8,9 @@ engineio = pyttsx3.init()
 def speak(text):
     engineio.say(text)
     engineio.runAndWait()
+voices = engineio.getProperty('voices')
+engineio.setProperty('voice',"english-north")
+engineio.setProperty('gender',"male")
 
 speak("Athletes to the line")
 time.sleep(120)
