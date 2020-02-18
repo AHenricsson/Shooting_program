@@ -34,7 +34,7 @@
 (sleep (time) 250)
 (SayText "Stop")
 (sleep (time) 20)
-(loop 20 '(begin
+(loop 13 '(begin
     (SayText "For the next competition shot, load")
     (sleep (time) 5)
     (SayText "Start")
